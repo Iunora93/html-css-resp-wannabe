@@ -127,3 +127,25 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ @media screen and (min-widht: 769px) {
+    .body ::-webkit-scrollbar{
+        display: none;
+    }
+    .container {
+       max-width: 100vw;
+    }
+    .lessons .col .img{
+        max-height: 100%;
+    }
+       
+   }
+
+@media screen and (max-widht: 768px) {
+    
+.body {
+    overflow: none;
+}
+    
+}
+
